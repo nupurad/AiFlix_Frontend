@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="vote.css">
+</head>
+<body>
+    <script>
+        function myVote() {
+            alert("Thank you for your vote!");  
+        }
+                
+        function mySuggestion() {
+            let x = document.getElementsByName("name");
+            if(x=="") {
+                alert('Please enter your movie suggestion!');
+                return false;
+            }
+            else
+                alert("Thank you for your suggestion!");
+        }   
+    </script>
+
+    <h3>AiFlix</h3>
+    <p>Vote for movies to be replicated by AI, boost creativity!</p>
+    <h4>Top Movies:</h4>
+    <div class="form">
+    <form onsubmit="myVote()">
+      <input type="radio" id="inception" name="movie" value="inception">
+      <label for="html">Inception</label><br>
+      <input type="radio" id="interstellar" name="movie" value="interstellar">
+      <label for="css">Interstellar</label><br>
+      <input type="radio" id="diehard" name="movie" value="diehard">
+      <label for="javascript">The Die Hard Series</label><br>
+      <input type="radio" id="avengers" name="movie" value="avengers">
+      <label for="javascript">The Avengers Series</label><br>
+      <input type="radio" id="tsr" name="movie" value="tsr">
+      <label for="javascript">The Shawshank Redemption</label><br><br>
+      <button>Vote</button>
+    </form>
+    </div>
+    <div class="trailer">Check out their trailers below!<br></div>
+
+    <div class="links">
+        <ul>
+            <li><iframe width="300" height="200" src="https://www.youtube.com/embed/YoHD9XEInc0" title="Inception (2010) Official Trailer #1 - Christopher Nolan Movie HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
+            <li><iframe width="300" height="200" src="https://www.youtube.com/embed/zSWdZVtXT7E" title="Interstellar - Trailer - Official Warner Bros. UK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
+            <li><iframe width="300" height="200" src="https://www.youtube.com/embed/jaJuwKCmJbY" title="Die Hard (1988) Trailer #1 | Movieclips Classic Trailers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
+            <li><iframe width="300" height="200" src="https://www.youtube.com/embed/eOrNdBpGMv8" title="Marvel&#39;s The Avengers- Trailer (OFFICIAL)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
+            <li><iframe width="300" height="200" src="https://www.youtube.com/embed/NmzuHjWmXOc" title="The Shawshank Redemption (1994) Official Trailer #1 - Morgan Freeman Movie HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
+        </ul>
+    </div>
+
+    <div class="suggest">
+        <div class="text">Fill out your own suggestions!</div>
+
+        <form onsubmit="mySuggestion()">
+            <input type="text" placeholder="Movie Name" name="name"><br>
+            <button>Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>

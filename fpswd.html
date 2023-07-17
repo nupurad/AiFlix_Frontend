@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="fpswd.css">
+</head>
+<body>
+    <script>
+        function myCheck() {
+            let e = document.forms["myForm"]["email"].value;
+            if(e=="") {
+                alert("Please enter your registered email address");
+                return false;
+            }
+            else {
+                alert("An email has been sent to your registered email address");
+            }
+        }
+    </script>
+    <h4>AiFlix</h4>
+
+    <div class="forgot">
+        <div class="text">Please enter your registered email address:</div>
+        <form name="myForm" onsubmit="return myCheck()">
+            <input type="email" placeholder="Email address" id="email"/></li><br><br>
+            <button>Submit</button></li>
+        </form>
+        
+</body>
+</html>

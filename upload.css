@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h3 {
+    align-items: left;
+    font-family: Gill Sans MT;
+    color: white;
+    margin-left: 1200px;
+    cursor: pointer;
+}
+
+p {
+    color: white;
+    font-family: Gill Sans MT;
+    font-size: 25px;
+    margin-top: 80px;
+    margin-left: 370px;
+    
+}
+
+.upload {
+    margin-left: 400px;
+    margin-top: 150px;
+}
+
+.upload input[type=file]:hover {
+    cursor: pointer; 
+}
+
+.upload button {
+    width: 16%;
+    background-color: orangered; 
+    color: black; 
+    padding: 10px; 
+    margin: 10px 10px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 15px;
+    transition: 0.6s ease;
+}
+
+.upload button:hover {
+    opacity: 0.7; 
+    background-color: brown;
+    color: white;
+}

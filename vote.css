@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h3 {
+    align-items: left;
+    font-family: Gill Sans MT;
+    color: white;
+    margin-left: 1180px;
+    cursor: pointer;
+}
+
+p {
+    color: white;
+    font-family: Gill Sans MT;
+    font-size: 25px;
+    margin-top: 80px;
+    margin-left: 370px;   
+}
+
+h4 {
+    font-size: 25px;
+    margin-left: 60px;
+}
+
+.form {
+    margin-left: 70px;
+}
+
+.form label {
+    font-size: 20px;
+}
+
+.form input[type=radio]:hover {
+    cursor: pointer; 
+}
+
+.form button {
+    width: 16%;
+    background-color: orangered; 
+    color: black; 
+    padding: 10px; 
+    margin: 10px 10px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 15px;
+    transition: 0.6s ease;
+}
+
+.form button:hover {
+    opacity: 0.7; 
+    background-color: brown;
+    color: white;
+}
+
+.trailer {
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.links ul li {
+    display: inline;
+    margin-left: 20px;
+    transition: 0.6s ease;
+}
+
+.links ul li:hover {
+    opacity: 0.7;
+}
+
+.suggest {
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.suggest form {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.suggest form input[type=text] {
+    width: 16%;
+    margin: 8px 0;
+    padding: 10px; 
+    display: inline-block; 
+    border: 1px solid orangered; 
+}
+
+.suggest form button {
+    width: 16%;
+    background-color: orangered; 
+    color: black; 
+    padding: 10px;
+    margin: 10px 5px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 15px;
+    transition: 0.6s ease;
+}
+
+.suggest form button:hover {
+    opacity: 0.7; 
+    background-color: brown;
+    color: white;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <script>
+      function myValidate() {
+        let uname = document.forms["myForm"]["username"].value;
+        if(uname==""){
+            alert("Name must be filled out");
+            return false;
+        }
+        let up = document.forms["myForm"]["password"].value;
+        if(up == ""){
+            alert("Please enter your password");
+            return false;
+        }
+      }
+    </script>
+    <div class="main">
+        <h4>AiFlix</h4>
+        <h2>Login</h2>
+    </div>
+
+    <form name="myForm" action="home.html" onsubmit="return myValidate()">
+      <div class="container">
+        <label>Username: </label> <br>
+        <input type="text" placeholder="Enter Username" name="username"> <br> <br>
+        <label>Password: </label> <br>
+        <input type="password" placeholder="Enter Password" name="password"> <br> <br>
+        <button type="submit" onsubmit="return myValidate()">Login</button> <br> 
+        <ul>
+         <li><input type="checkbox" checked="checked"> Remember me</li> 
+         <li>Forgot <a href="fpswd.html"> password? </a></li>  
+        </ul>
+      </div>
+    </form>
+   
+   
+</body>
+</html>
