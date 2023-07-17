@@ -1,1 +1,1 @@
-AiFlix is the concept of a content management system. The files consist of a part of the frontend of the expected website. The website is built using HTML5, CSS, Bootstrap, and Javascript. The system requires a backend which is currently is process. 
+AiFlix is the concept of a content management system. The files consist of a part of the frontend of the expected website. The website is built using HTML5, CSS, Bootstrap, and Javascript. The system requires a backend which is currently in process. 
